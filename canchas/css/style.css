@@ -1,0 +1,133 @@
+
+.bodyac{
+    background-image: url("img/actualizarpage.jpg");
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bodysec{
+    background-image: url("img/IndexFondo1.jpg");
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.tablephp {
+ width: 100%;
+ border: 1px solid #000;
+
+	}
+.trstyle{
+  width: 25%;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  padding: 0.3em;
+  caption-side: bottom;
+}
+.tdstyle{
+  background: #040404;
+  color : #FCFCFC;
+}
+
+caption {
+padding: 0.3em;
+color: #fff;
+background: #000;
+}
+
+header{
+   	position: relative;
+   	margin: auto;
+   	text-align: center;
+   	padding: 5px;
+
+}
+nav{
+   	position: relative;
+   	margin: auto;
+   	width: 100%;
+   	height: auto;
+   	background: #000;
+   	
+}
+nav .usersec{
+  float: right;
+  margin: 10px;
+  text-align: right;
+  width: 30%;
+}
+nav .menu{
+   	position: relative;
+   	margin: auto;
+   	width: 30%;
+   	text-align: left;
+}
+
+nav ul li{
+   	display: inline-block;
+   	width: 24%;
+   	line-height: 50px;
+   	list-style: none;
+}
+
+nav ul li a{
+   	color: #fff;
+   	text-decoration: none;
+}
+
+nav li a:hover {
+	text-decoration: none;
+	background: #75706F;
+	color: #fff;
+	border-radius: 3px;
+	padding: 0.6em 0.3em;
+}
+  
+section{
+   	position: relative;
+   	padding: 20px;
+}
+
+h2{
+  color: #299CE7; 
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+label{
+  font-size: 12pt; 
+  color: #FFFFFF; 
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+h4{
+  font-size: 14pt; 
+  color: #FFFFFF; 
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.h1actualizar{
+  color: #FFFFFF; 
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.box{
+  border: 1px solid #aaa; /*getting border*/
+  border-radius: 4px; /*rounded border*/
+  color: #000; /*text color*/
+}
+
+.checkeable input {
+  display: none;
+}
+.checkeable img {
+  width: 400px;
+  border: 5px solid transparent;
+}
+.checkeable input {
+  display: none;
+}
+.checkeable input:checked  + img {
+  border-color: blue;
+}
